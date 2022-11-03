@@ -1,0 +1,710 @@
+*{
+    margin:0
+}
+.divSeaFluid{
+    height: 600px;
+    /* border:1px solid red; */
+}
+.divSeaMec{
+    height: 600px;
+    /* border: 1px solid red; */
+}
+.divSea{
+    height: 600px;
+    /* border: 1px solid red; */
+    background: url(sea.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+}
+.divSeaDzax{
+    width: 15%;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+.divSeaVanilla{
+    width: 70%;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.divSeaAj{
+    width: 15%;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.h1Vanilla{
+    color:white;
+    font-size: 80px;
+    line-height: 20px;
+}
+.h1Vanilla:hover{
+    color:#F87A40;
+}
+
+.aVanilla{
+    color:#F87A40;
+}
+.aVanilla:hover{
+    color:red;
+}
+.h2Vanilla{
+    color:white;
+}
+.btnVanilla{
+    background: #FF7F1E;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.btnVanilla:hover{
+    background: lightsalmon;
+   
+}
+.aBtnVanilla{
+    color:white
+}
+.divBtn1,
+.divBtn2,
+.divBtn3,
+.divBtn4,
+.divBtn5,
+.divBtn6{
+    width: 130px;
+    height: 40px;
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.btnAj{
+    width: 90px;
+    height:25px ;
+    border:1px solid white;
+    border-radius:15px;
+    background: white;
+}
+.btnAj:hover{
+    width: 100px;
+    background: orange;
+}
+.divPoqrAj2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 15px;
+}
+.divPoqrAj3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 19px;
+}
+
+/* DIV HATAK */
+.divHatakFluid{
+    height: 600px;
+    /* border: 1px solid red; */
+}
+.divHatakMec{
+    height: 600px;
+    /* border: 1px solid red; */
+}
+.divHatak{
+    height: 600px;
+    /* border: 1px solid red; */
+    background: url(hatak.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divHatak1{
+    width: 15%;
+    height:400px;
+    /* border:1px solid red; */
+}
+.divHatak2{
+    width: 22%;
+    height:400px;
+    /* border:1px solid red; */
+}
+.divHatak3{
+    width: 22%;
+    height:400px;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.divHatak4{
+    width: 22%;
+    height:400px;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.divHatak5{
+    width: 15%;
+    height:400px;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.aH3Hatak{
+    color:white
+}
+.divHatakHr{
+    width: 40px;
+    border:2px solid #FF7F1E;
+}
+.pHatak{
+    color:white
+}
+.ulHatak{
+    padding: 0;
+    margin-left: 20px;
+}
+.liHatak{
+    list-style: circle;
+    color:white;
+    margin-bottom: 15px;
+}
+.aHatak{
+    color:white
+}
+.aHatak:hover{
+    color:wheat
+}
+.btnHatak{
+   background: #F87A40;
+   width: 150px;
+   height: 40px;
+   border-radius: 5px;
+}
+.btnHatak:hover{
+    background: #F87A40;
+    width: 200px;
+    height: 50px;
+    border-radius: 0px;
+ }
+.aBtnHatak{
+    color:white
+}
+.aBtnHatak:hover{
+    font-size: 15px;
+    color:white
+}
+.aHatak:hover{
+   font-size: 25px;
+}
+.divHatak3_1,
+.divHatak3_2{
+    width: 100%;
+    height: 47%;
+    /* border:1px solid red; */
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.divHatak4_1,
+.divHatak4_2{
+    width: 100%;
+    height: 47%;
+    /* border:1px solid red; */
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.divHatak3_1:hover{
+    width: 110;
+    height: 55%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.divHatak3_2:hover{
+    width: 110;
+    height: 55%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.divHatak4_1:hover{
+    width: 110;
+    height: 55%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.divHatak4_2:hover{
+    width: 110;
+    height: 55%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.h4Hatak{
+    margin-top: 25px;
+}
+.aH4Hatak{
+    color:white
+}
+.aH4Hatak:hover{
+    color:black
+}
+.pHatak{
+    color: white;
+}
+
+.divHatakAj1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+   margin-right: 10px;
+   margin-bottom: 10px;
+
+}
+.divHatakAj2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+   margin-right: 15px;
+   margin-bottom: 10px;
+}
+.divHatakAj2Nerqev{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+   margin-bottom: 30px;
+   margin-right: 15px;
+}
+
+/* DIV ANTAR */
+.divAntarFluid{
+    height: 600px;
+    /* border: 1px solid red; */
+}
+.divAntarMec{
+    height: 600px;
+    /* border: 1px solid red; */
+    background: url(antar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.divAntarBgc{
+    height: 600px;
+    /* border: 1px solid red; */
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divAntar1{
+    width: 15%;
+    height: 280px;
+    /* border: 1px solid red; */
+}
+.divAntar2{
+    width: 22%;
+    height: 280px;
+    /* border: 1px solid red; */
+}
+.divAntar3{
+    width: 22%;
+    height: 280px;
+    /* border: 1px solid red; */
+}
+.divAntar4{
+    width: 22%;
+    height: 280px;
+    /* border: 1px solid red; */
+}
+.divAntar5{
+    width: 15%;
+    height: 280px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.divAntar2_1{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid red;  */
+    background: url(man.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.divAntar2_1:hover{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid red;  */
+    background: url(man1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.divAntar3_1{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid red;  */
+    background: url(photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.divAntar3_1:hover{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid red;  */
+    background: url(photo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.divAntar4_1{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid red;  */
+    background: url(bag.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.divAntar4_1:hover{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid red;  */
+    background: url(bag1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.divAntar2_2,
+.divAntar3_2,
+.divAntar4_2{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid red;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.divAntar2_2:hover,
+.divAntar3_2:hover,
+.divAntar4_2:hover{
+    height: 40%;
+    background: lightgray;
+}
+
+.h4Antar{
+    color:black;
+    line-height: 0px;
+}
+.h5Antar{
+    color:#FF7F1E;
+    line-height: 0px;
+}
+
+/* DIV OCEAN */
+.divOceanFluid{
+    height: 600px;
+    /* border: 1px solid red; */
+}
+.divOceanMec{
+    height: 600px;
+    /* border: 1px solid red; */
+    background: url(ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.divOceanBgc{
+    height: 600px;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+}
+.divOcean1{
+    width: 25%;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+.divOcean2{
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+.divOcean3{
+    width: 25%;
+    height: 400px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.divOceanMap{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: flex-end;
+    background: url(map.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.divOceanButton{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.divOceanMapText{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.pMap{
+    color:white
+}
+.btnOcean{
+    width: 90px;
+    height: 40px;
+    border:3px solid white;
+    margin-left: 15px;
+    background: none;
+}
+.aBtnOcean{
+    color:white
+}
+.aBtnOcean:hover{
+    color:white;
+    font-size: 20px;
+}
+.btnOcean:hover{
+    width: 120px;
+    height: 50px;
+    border:3px solid #FF7F1E;
+}
+.divHatak5{
+    width: 15%;
+    height:400px;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/* div BEACH */
+.divBeachFluid{
+    height: 600px;
+    /* border: 1px solid red; */
+}
+.divBeachMec{
+    height: 600px;
+    /* border: 1px solid red; */
+    background: url(beach.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divBeach1{
+    width: 15%;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+.divBeach2{
+    width: 33%;
+    height: 400px;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divBeach3{
+    width: 33%;
+    height: 400px;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.divBeach4{
+    width: 15%;
+    height: 400px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.divBeachForm{
+    width: 95%;
+    height: 350px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.divBeachMap{
+    width: 95%;
+    height: 350px;
+    /* border: 1px solid red; */
+
+}
+.iframe{
+    width: 100%;
+    height: 350px;
+}
+.inputText{
+    width: 95%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.inputText:hover{
+   background-color: azure;
+   border:1px solid pink;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.inputText:hover::placeholder{
+   color:darkorange
+ }
+.inputEmail{
+    width: 95%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.inputEmail:hover{
+    background-color: azure;
+    border:1px solid pink;
+     border-radius: 5px;
+     font-size: 20px;
+ }
+ .inputEmail:hover::placeholder{
+    color:darkorange
+  }
+.textArea{
+    width: 95%;
+    height: 140px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.textArea:hover{
+    background-color: azure;
+    border:1px solid pink;
+     border-radius: 5px;
+     font-size: 20px;
+ }
+ .textArea:hover::placeholder{
+    color:darkorange
+  }
+.inputSubmit{
+    width: 95%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: #FF7F1E;
+    color:white
+}
+.inputSubmit:hover{
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FF7F1E;
+    color:black
+}
+
+/* DIV BACK */
+
+.divBackFluid{
+    height: 200px;
+    /* border: 1px solid red; */
+}
+.divBackMec{
+    height: 200px;
+    /* border: 1px solid red; */
+    background-color:#2A2B30;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divIconMec{
+    width: 100%;
+    height: 35px;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.divIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #F87A40;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.divIcon:hover {
+    background-color: white;
+
+}
+.btnBack{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FF7F1E;
+}
+.btnBack:hover{
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: orange;
+}
+.aBtnBack{
+    color:white;
+}
+.h6Back{
+    color:white;
+}
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-google,
+.fa-instagram-square{
+    color:black;
+}
+.aBack{
+    color:#F87A40
+}
